@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akhil Mohan | Data Science Portfolio</title>
+    <title>Contact | Akhil Mohan</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation Bar -->
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -19,12 +18,14 @@
         </ul>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="hero">
-        <h1>Welcome to My Data Science Portfolio</h1>
-        <p>Hi, I'm Akhil Mohan – a data scientist passionate about AI, ML, and analytics.</p>
-        <a href="projects.html" class="btn">View My Work</a>
-        <a href="resume.html" class="btn">Download Resume</a>
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
     </section>
 
     <script src="scripts.js"></script>
